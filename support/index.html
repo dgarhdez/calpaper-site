@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calpaper Support</title>
+<meta name="description" content="Help with Calpaper: the Shortcuts setup, the daily update, calendars, photos and privacy.">
+<link rel="icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header><a class="brand" href="../"><img src="../assets/icon.png" alt="">Calpaper</a></header>
+  <p class="jump"><a href="#es" lang="es">Versión en español más abajo</a></p>
+  <h1>Support</h1>
+  <p>Calpaper is made by one independent developer, and I read every message. Email <a href="mailto:dgarhdez@gmail.com">dgarhdez@gmail.com</a> with your iPhone model, iOS version and what you were doing.</p>
+
+  <h2>Quick answers</h2>
+  <div class="card">
+    <details>
+      <summary>Why does Calpaper need the Shortcuts app?</summary>
+      <p>iOS doesn't let any app change your wallpaper on its own. Apple's Shortcuts app can. Calpaper provides one action, "Get Today's Calpaper", and the setup guide walks you through creating a daily automation that passes its image to Apple's "Set Wallpaper Photo" action. You do this once. Shortcuts is already on your iPhone; if you removed it, get it free from the App Store.</p>
+    </details>
+    <details>
+      <summary>My wallpaper didn't update this morning.</summary>
+      <p>Open Shortcuts and check the automation: it should be on, set to repeat every day, and set to <strong>Run Immediately</strong> (not "Run After Confirmation"). On iOS 26 and earlier these live in the Automation tab; on iOS 27 the automation is a shortcut with a time trigger. Then tap <strong>Update</strong> at the top-left of Calpaper to run it right now and see any error, or tap the status icon and choose <strong>Doesn't look right?</strong> for a four-point checklist.</p>
+    </details>
+    <details>
+      <summary>The wallpaper looks zoomed in or cropped.</summary>
+      <p>In the "Set Wallpaper Photo" action, turn off <strong>Crop to Subject</strong> and <strong>Show Preview</strong>. The guide shows where they are (tap the small arrow after "Lock Screen and Home Screen").</p>
+    </details>
+    <details>
+      <summary>"Update wallpaper" says the shortcut wasn't found.</summary>
+      <p>The button runs your shortcut by name. The guide names it <strong>Calpaper</strong>; if you called it something else, type that name in Settings › Shortcut name, exactly as it appears in Shortcuts.</p>
+      <p>Set Calpaper up before version 1.1 on iOS 26 or earlier? That setup was an automation only, with no shortcut to run by name. Open Settings › Setup guide in Calpaper: it builds a shortcut called Calpaper and an automation that runs it. Delete the old automation afterwards.</p>
+    </details>
+    <details>
+      <summary>It replaced my wallpaper's photo. Can I keep both?</summary>
+      <p>"Set Wallpaper Photo" replaces the photo of the wallpaper you pick. To keep your current one, add a new wallpaper first: long-press your Lock Screen, tap +, and point the automation at that one.</p>
+    </details>
+    <details>
+      <summary>I added an event and it's not on my Lock Screen.</summary>
+      <p>The wallpaper is drawn each morning, so events added later in the day aren't on it yet. When today's calendar changes, Calpaper's status turns into an amber <strong>Update</strong>: tap it to redraw the wallpaper now. Otherwise the change arrives with tomorrow morning's update.</p>
+    </details>
+    <details>
+      <summary>It says "Nothing scheduled" but I have events.</summary>
+      <p>Check that Calpaper has calendar access (Settings › Privacy &amp; Security › Calendars › Calpaper › Full Access) and that the calendar is switched on in Calpaper under Content › Events. Declined invitations are left out on purpose.</p>
+    </details>
+    <details>
+      <summary>Where is my data?</summary>
+      <p>On your phone. Calpaper has no servers and no account. From version 1.1, anonymous usage stats are sent only if you allow them, and never include your calendar, notes, photos or emoji. See the <a href="../privacy/">Privacy Policy</a>. Deleting the app deletes everything it stored.</p>
+    </details>
+    <details>
+      <summary>Which languages and accessibility features does it support?</summary>
+      <p>English, Spanish, Portuguese, German, French, Japanese and Korean. VoiceOver, Dynamic Type and Reduce Motion are supported, and the wallpaper itself has a "Larger text" option in the Look step.</p>
+    </details>
+  </div>
+
+  <section class="lang" id="es" lang="es">
+  <h1>Ayuda</h1>
+  <p>Calpaper la hace un único desarrollador independiente, y leo todos los mensajes. Escribe a <a href="mailto:dgarhdez@gmail.com">dgarhdez@gmail.com</a> con tu modelo de iPhone, la versión de iOS y qué estabas haciendo.</p>
+
+  <h2>Respuestas rápidas</h2>
+  <div class="card">
+    <details>
+      <summary>¿Por qué Calpaper necesita la app Atajos?</summary>
+      <p>iOS no permite que ninguna app cambie el fondo de pantalla por sí sola. La app Atajos de Apple sí puede. Calpaper ofrece una acción, «Obtener el Calpaper de hoy», y la guía de configuración te acompaña para crear una automatización diaria que pasa su imagen a la acción «Establecer foto como fondo de pantalla» de Apple. Se hace una sola vez. Atajos ya está en tu iPhone; si la quitaste, descárgala gratis de la App Store.</p>
+    </details>
+    <details>
+      <summary>Mi fondo no se actualizó esta mañana.</summary>
+      <p>Abre Atajos y revisa la automatización: debe estar activada, repetirse cada día y estar en <strong>Ejecutar inmediatamente</strong> (no «Ejecutar tras confirmar»). En iOS 26 y anteriores está en la pestaña Automatización; en iOS 27 es un atajo con un activador de hora. Después toca <strong>Actualizar</strong> arriba a la izquierda en Calpaper para ejecutarla ahora y ver cualquier error, o toca el icono de estado y elige <strong>¿Algo no cuadra?</strong> para revisar cuatro puntos.</p>
+    </details>
+    <details>
+      <summary>El fondo se ve ampliado o recortado.</summary>
+      <p>En la acción «Establecer foto como fondo de pantalla», desactiva <strong>Recortar el sujeto</strong> y <strong>Mostrar previsualización</strong>. La guía muestra dónde están (toca la flecha pequeña después de «Pantalla de bloqueo y pantalla de inicio»).</p>
+    </details>
+    <details>
+      <summary>«Actualizar fondo de pantalla» dice que no encuentra el atajo.</summary>
+      <p>El botón ejecuta tu atajo por su nombre. La guía lo llama <strong>Calpaper</strong>; si le pusiste otro nombre, escríbelo en Ajustes › Nombre del atajo, tal como aparece en Atajos.</p>
+      <p>¿Configuraste Calpaper antes de la versión 1.1 en iOS 26 o anterior? Aquella configuración era solo una automatización, sin un atajo que ejecutar por su nombre. Abre Ajustes › Guía de configuración en Calpaper: crea un atajo llamado Calpaper y una automatización que lo ejecuta. Después borra la automatización antigua.</p>
+    </details>
+    <details>
+      <summary>Sustituyó la foto de mi fondo. ¿Puedo conservar las dos?</summary>
+      <p>«Establecer foto como fondo de pantalla» sustituye la foto del fondo que elijas. Para conservar el actual, añade primero un fondo nuevo: mantén pulsada la pantalla bloqueada, toca + y apunta la automatización a ese.</p>
+    </details>
+    <details>
+      <summary>Añadí un evento y no aparece en mi pantalla bloqueada.</summary>
+      <p>El fondo se dibuja cada mañana, así que los eventos que añades más tarde aún no están. Cuando cambia el calendario de hoy, el estado de Calpaper pasa a un <strong>Actualizar</strong> ámbar: tócalo para redibujar el fondo ahora. Si no, el cambio llega con la actualización de mañana.</p>
+    </details>
+    <details>
+      <summary>Dice «Nada programado» pero tengo eventos.</summary>
+      <p>Comprueba que Calpaper tiene acceso al calendario (Ajustes › Privacidad y seguridad › Calendarios › Calpaper › Acceso total) y que el calendario está activado en Calpaper, en Contenido › Eventos. Las invitaciones rechazadas se omiten a propósito.</p>
+    </details>
+    <details>
+      <summary>¿Dónde están mis datos?</summary>
+      <p>En tu teléfono. Calpaper no tiene servidores ni cuenta. Desde la versión 1.1, las estadísticas de uso anónimas solo se envían si las permites, y nunca incluyen tu calendario, notas, fotos ni emojis. Consulta la <a href="../privacy/#es">política de privacidad</a>. Al borrar la app se borra todo lo que guardó.</p>
+    </details>
+    <details>
+      <summary>¿Qué idiomas y funciones de accesibilidad admite?</summary>
+      <p>Español, inglés, portugués, alemán, francés, japonés y coreano. Admite VoiceOver, Texto dinámico y Reducir movimiento, y el propio fondo de pantalla tiene una opción de «Texto más grande» en el paso Estilo.</p>
+    </details>
+  </div>
+  </section>
+
+  <footer>
+    <p><a href="../">Home</a> · <a href="../privacy/">Privacy</a></p>
+    <p>Calpaper is an independent app by Daniel Garcia Hernandez. Shortcuts and iPhone are trademarks of Apple Inc.</p>
+  </footer>
+</div>
+</body>
+</html>
